@@ -13,18 +13,25 @@ dist/
 dist-ssr/
 *.local
 
+# Vite cache
+.vite/
+
+# pnpm
+.pnpm-store/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# VNC/Docker/Temporary files
+# Temporary / misc build output
 .tmp/
 out/
 build/
@@ -38,5 +45,3 @@ build/
 
 # TypeScript compilation cache
 *.tsbuildinfo
-
-node_modules/
